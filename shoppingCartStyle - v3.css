@@ -1,0 +1,40 @@
+.navbar-brand img{
+    width:10rem;
+    height:3rem;
+}
+.navbar{
+    background-color:white;
+}
+
+.selected{
+    outline:0.5px solid #007BFF;
+}
+.removed{
+    outline:0.5px solid #DC3545;
+}
+.search input:focus{
+    outline:none;
+  
+}
+.search select:focus{
+    outline:none;
+}
+.blurred{
+    opacity:0.5;
+    text-align:center;
+}
+.order-head input{
+    width:30%;
+    border:none;
+}
+.empty{
+    color:gray;
+    text-align:center;
+}
+.stock{
+    color: #DC3545;
+    position:absolute;
+    top:60%;
+    left:25%;
+    opacity:1;
+}
